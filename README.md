@@ -1,32 +1,15 @@
-# Refactor Monolith to Microservices
+# Refactor Monolith to Microservices Kubernates
 
-## Udagram Image Filtering Application
+The project is split into there parts:
 
-Udagram is a simple cloud application developed alongside the Udacity Cloud Engineering Nanodegree. It allows users to register and log into a web client, post photos to the feed, and process photos using an image filtering microservice.
+1- first part is backend display user 
+2- second part is backend display feed 
+3- third part is frontend
 
-The project is split into two parts:
-1. Frontend - Angular web application built with Ionic Framework
-2. Backend RESTful API - Node-Express application
+## ScreenShots: 
 
-## Key Achievements: 
 
-1. Refactor the API: Decompose the API code to have two separate projects that can be run independent of one another: /users and /feed endpoints.
-
-2. Containerize the Code: Create Dockerfiles for the frontend and backend applications.
-
-![DockerImages](screenshots/DockerImages.JPG)
-
-3. Build CICD Pipeline: Set up GitHub account to integrate with Travis CI and generate a build pipeline.
-
-![TravisCI](screenshots/TravisBuild.JPG)
-
-4. Deploy to Kubernetes: Deploy the Docker containers for the API applications and web application as their own pods in AWS EKS.
-
-![KubernetesPods](screenshots/KubernetesPods.JPG)
-
-5. Set up Kubernetes Services: Configure a reverse proxy to direct requests to the appropriate backend and frontend loadbalancer
-
-![KubernetesServices](screenshots/KubernetesServices.JPG)
+(ScreenShots/1.jpg)
 
 
 ## Getting Started
