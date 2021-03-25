@@ -29,7 +29,7 @@ For this project, a Postgres database and S3 bucket were previously set up from 
     ```bash
     npm run dev
     ```
-* You can visit `http://localhost:8080/api/v0/feed` in your web browser to verify that the application is running. You should see a JSON payload. 
+* You can visit `http://localhost:8100/api/v0/feed` in your web browser to verify that the application is running. You should see a JSON payload. 
 
 ### Frontend App
 * To download all the package dependencies, run the command from the directory `udagram-frontend/`:
