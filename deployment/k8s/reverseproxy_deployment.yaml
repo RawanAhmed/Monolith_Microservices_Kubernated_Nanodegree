@@ -15,7 +15,7 @@ spec:
         service: reverseproxy
     spec:
       containers:
-      - image: rawanahmed/reverse:latest
+      - image: rawanahmed/reverse
         name: reverseproxy
         imagePullPolicy: Always          
         resources:

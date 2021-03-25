@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: udagram-user
-        image: rawanahmed/user:latest
+        image: rawanahmed/user
         imagePullPolicy: Always  
         resources:
           requests:

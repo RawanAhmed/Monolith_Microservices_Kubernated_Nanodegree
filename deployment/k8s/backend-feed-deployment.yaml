@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: udagram-feed
-        image: rawanahmed/feed:latest
+        image: rawanahmed/feed
         resources:
           requests:
             memory: "64Mi"

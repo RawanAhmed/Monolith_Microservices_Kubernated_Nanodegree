@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
       - name: udagram-frontend
-        image: rawanahmed/frontend:latest
+        image: rawanahmed/frontend
         imagePullPolicy: Always 
         ports:
         - containerPort: 80
